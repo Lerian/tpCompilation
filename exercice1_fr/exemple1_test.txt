@@ -1,0 +1,6 @@
+a := 3 *2.4 variable2
+
+
+= 4 +/ 0.3
+_trois:= 6- 3 // commentaire x = _trois / a
+5..3.0
