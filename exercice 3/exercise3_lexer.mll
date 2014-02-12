@@ -16,7 +16,6 @@
 
 let blank = [' ' '\t' '\r']
 let number = ['0'-'9']+('.'['0'-'9']+)?
-let variable = ['a'-'z' 'A'-'Z' '_']['a'-'z' 'A'-'Z' '_' '0'-'9']*
 
 rule main = parse
   | "//" {comment lexbuf}
